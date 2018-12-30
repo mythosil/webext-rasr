@@ -12,5 +12,9 @@
       "matches": ["*://www.google.com/search*", "*://www.google.co.jp/search*"],
       "js": ["rasr.js"]
     }
-  ]
+  ],
+  "options_ui": {
+    "page": "options.html"
+  },
+  "permissions": ["storage"]
 }
