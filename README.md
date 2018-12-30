@@ -1,2 +1,3 @@
-# webext-rasr
-RASR: Remove Annoying Search Results (WebExtensions)
+RASR: Remove Annoying Search Results
+===
+

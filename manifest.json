@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "RASR: Remove Annoying Search Results",
+  "version": "1.0",
+  "description": "Remove annoying pages from search results (just for my own use)",
+  "icons": {
+    "32": "icons/icon-32.png"
+  },
+  "web_accessible_resources": ["icons/icon-32.png"],
+  "content_scripts": [
+    {
+      "matches": ["*://www.google.com/search*", "*://www.google.co.jp/search*"],
+      "js": ["rasr.js"]
+    }
+  ]
+}
