@@ -2,7 +2,7 @@ var browser = browser || chrome;
 
 const defaultBlacklist = [
   'code.i-harness.com',
-  'sejuku.net/blog',
+  'sejuku.net',
 ];
 
 const iconUrl = browser.extension.getURL("icons/icon-32.png");
