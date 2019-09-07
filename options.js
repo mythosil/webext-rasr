@@ -3,6 +3,9 @@ var browser = browser || chrome;
 const defaultBlacklist = [
   'code.i-harness.com',
   'sejuku.net',
+  'codeday.me',
+  'stackoverrun.com',
+  'kotaeta.com'
 ];
 
 function saveOptions(e) {
