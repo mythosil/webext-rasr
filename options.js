@@ -5,7 +5,6 @@ const defaultBlacklist = [
   'codeday.me',
   'stackoverrun.com',
   'kotaeta.com',
-  'codeday.me',
   'sejuku.net',
   'techacademy.jp',
   //'qiita.com',
