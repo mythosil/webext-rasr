@@ -1,0 +1,21 @@
+{
+  "name": "webext-rasr",
+  "version": "1.2.0",
+  "description": "RASR: Remove Annoying Search Results",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mythosil/webext-rasr.git"
+  },
+  "author": "Akito Tabira <akito.tabira@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mythosil/webext-rasr/issues"
+  },
+  "homepage": "https://github.com/mythosil/webext-rasr#readme",
+  "devDependencies": {
+    "web-ext": "^5.4.0"
+  },
+  "scripts": {
+    "build": "web-ext build"
+  }
+}

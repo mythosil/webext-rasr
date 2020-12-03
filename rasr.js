@@ -31,7 +31,7 @@ async function inBlacklist(url) {
 }
 
 async function filterAnnoying(gElem) {
-  const r = gElem.querySelector('.r');
+  const r = gElem.querySelector('.rc');
   if (!r) {
     return;
   }
